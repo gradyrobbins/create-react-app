@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import qtr from './united-states-quarter-front.png'
+import qtr from './coverImage.jpg'
 
 class App extends Component {
   render() {
