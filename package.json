@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "^4.0.0","bootstrap": "^4.3.1",
+    "react-scripts": "^4.0.0",
+    "bootstrap": "^4.3.1",
     "cors": "^2.8.5",
     "dot-prop": "^5.2.0",
     "elliptic": "^6.5.4",
@@ -25,15 +26,21 @@
     "sockjs": "^0.3.20",
     "ssri": "^8.0.1",
     "y18n": "^4.0.3",
-    "yargs-parser": "^19.0.4"
+    "yargs-parser": "^19.0.4",
+    "concurrently": "^4.1.0",
+
+    "json-server": "^0.12.1"
   },
+
   "scripts": {
-    "start": "react-scripts start",
-    "start-all-interfaces": "HOST=0.0.0.0 react-scripts start",
+    "start": "npm run build && npm run json-serve",
+    "json-serve": "node server.js",
+    "start:dev": "concurrently \"npm run json-serve\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  
   "eslintConfig": {
     "extends": "react-app"
   },
