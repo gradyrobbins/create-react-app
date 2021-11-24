@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono");
 
 :root {
   --ui-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
@@ -150,12 +151,3 @@ a {
       bottom;
     background-size: cover;
   }
-/*
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
