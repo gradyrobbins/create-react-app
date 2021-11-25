@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-import './index.css';
-
-
 class App extends Component {
   render() {
     return (
@@ -21,17 +18,17 @@ class App extends Component {
               <span className="Details">
                 <div className="NavButtons" >
                   <div className="NavButton">
-                    a(href="/toby")  Toby</div>
+                      Toby</div>
                     <div className="NavButton">
-                    a(href="/nate")  Nate</div>
+                      Nate</div>
                     <div className="NavButton">
-                    a(href="/laney")  Laney</div>
+                      Laney</div>
                     <div className="NavButton">
-                    a(href="/andrew")  Andrew</div>
+                      Andrew</div>
                     <div className="NavButton">
-                    a(href="/mary")  Mary</div>
+                      Mary</div>
                     <div className="NavButton">
-                    a(href="/molly")  Molly</div>
+                      Molly</div>
                 </div>
               </span>
             </div>
