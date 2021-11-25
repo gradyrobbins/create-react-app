@@ -4,15 +4,13 @@ class App extends Component {
   render() {
     return (
     <div className="App">
-      <header className="App-header">
-
-          <p>
-            Hello from Render! And from Grady
-          </p>
-
-      </header>
         <div className="WelcomeView">
-          <h1 className="Banner"> State Quarters Collector</h1>
+          <header className="App-header">
+              <h1 className="Banner"> State Quarters Collector</h1>
+              <p>
+                Hello from Render! And from Grady
+              </p>
+          </header>
           <div className="Message">
             <div className="Title">
               <span className="Details">
